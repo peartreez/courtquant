@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local data
+data/*.db
+data/*.sqlite
+*.db
+*.sqlite
+
+# Archives and local version snapshots (kept on disk, not on GitHub)
+court-quant-v*/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
